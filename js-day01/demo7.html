@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+	</body>
+	
+	
+	<script type="text/javascript">
+		
+		var userName = "test123";
+		var pwd = "111111";
+		
+		// 用户 输入 用户名密码 
+		
+		// 用户名密码不能为空
+		if(userName != "" && pwd != ""){
+//		if(userName == "" || pwd ==""){	
+			
+			 // 对话框
+			// 输入用户名密码
+			   var  maxLen =15;
+			   var  minLen = 6;
+			   var len = userName.length;
+			  // 验证用户名长度
+			    if( len >=minLen  && len<=maxLen ){
+		    	      
+		    	      // 长度合法  
+		    	      // 用户名 密码的 真实性
+		    	       var trueUserName = "test123"
+		    	       var truePassowrd = "111111"
+		    	      
+		    	        if( userName == trueUserName && pwd == truePassowrd){
+		    	        	
+		    	        	alert("登录成功")
+		    	        }else{
+		    	        	
+		    	        	alert("用户名或者密码 输入有误!!")
+		    	        }
+		    	      
+		    	      
+		    	      
+			    }else{
+			    	
+			    	alert("用户名长度非法,请检查后重新输入!")
+			    }
+			
+		}else{
+			
+			// 用户名 密码没有输入
+			alert("用户名或者密码不允许为空!") 
+		}
+//		console.log(len)
+		//console.log("memeda".length) // 字符串的长度
+		
+	</script>
+</html>

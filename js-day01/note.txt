@@ -1,0 +1,204 @@
+变量
+可以允许发生变化的量
+
+存储数据
+字符串
+数字
+数组
+对象
+布尔
+null
+undefined
+
+
+声明变量 
+
+var str = "hgsvbhghorehghgegherihgierhgierhiugerhiuger"
+
+
+
+document.write("svdsvjdsljvdsjvdsmvldsvd") // 在浏览器 打印 内容
+console.log()  // 在控制台 打印内容
+typeof(var)  检测 某个变量的数据类型
+
+
+
+数据类型
+运算符 
+
+算术运算符 
++ - / * % 
++ 链接
++ 加法运算   a+b
+
+赋值运算符  (低)
+=  变量赋值
++=
+-=
+/=
+*=
+%= 
+
+a+=b  ---->a = a+b
+
+比较运算符 
+ ==    a==b  比较变量的值是否相等    '1'   1
+ ===   a===b  比较变量的值是否相等还要判断类型是否相等 
+ >
+ >=
+ <
+ <=
+ !=   不等于   a!= b     var a ="mmeda" var b="wfehwfhwe";
+ !==  不全等  a !== b
+
+自增自减运算符  
+
+前++ --、 除小括号以外 最高
+后++ -- （赋值类运算符）
+
+三元运算符 
+
+逻辑运算符 
+与 &&    and     exp1 true && exp2 true  --->true 
+                      false     true  ---->false
+                       true     false----->false
+                       false    false ---->flase
+                       
+                       
+ 或 ||    or    exp1 true|| exp2  ----->true
+              exp1 false || false ---->false
+              exp1 false || true  ---->true
+ 非 ！      非假既真（取反）  !exp
+
+
+a*b && c*d
+
+() 小括号  > 前++ -- > 逻辑 >(看机制) 算术运算 > 赋值类 后++ --
+将一部分逻辑作为一个整体   
+if((a<=10) && a>=100 || (b =100)  ){
+
+
+}
+
+if(a<=10 && a>=100 || b=100){
+   
+
+
+}
+
+
+
+流程控制语句 
+控制逻辑节点
+
+if(exp){
+exp true  
+
+进入
+}
+
+
+if(exp){
+ true
+}else{
+  false
+}
+
+
+
+if(exp1){
+
+}else if(exp2){
+
+
+}else if(exp3){
+
+}else{
+}
+
+
+能够实现js 所有的逻辑判断
+
+
+js 流程控制
+
+ 比对某个是否满足 某个固定值
+
+  switch... case...
+
+
+switch(var){
+
+  case "值1"：
+  
+    代码段
+    break;  
+     case "值2"：
+  
+    代码段
+    break;  
+     case "值3"：
+  
+    代码段
+    break;  
+    ....
+    
+    default :
+    
+          代码 ；
+          
+    break;
+}
+
+<script>
+
+  js 代码
+</script>
+
+
+作业：
+  
+  1.5*5表格 用js来输出 width 600 高度 800  内容居中 
+  
+     扩展： 25单元格  ：刷新 单元格颜色随机变化 
+  
+  
+ 100所有的偶数 
+ 
+ 100%2==0
+
+
+for(){}
+
+while(){
+
+}
+
+
+do{
+}while(){
+
+}
+
+
+
+万物皆对象 
+
+对象：
+  属性
+ 方法  
+
+
+var str ="wehfiwhfiewhf";  字符串      字符串对象
+
+
+ 文档对象
+   document
+   
+   document.write()  // 方法
+   
+   str.length   // 长度 属性
+
+
+
+
